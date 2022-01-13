@@ -1,3 +1,7 @@
+body{
+    font-size: 25px;
+}
+
 header{
     background-image: url("../img/pattern.png");
     background-color: lightskyblue;
@@ -6,10 +10,42 @@ header{
     height: 170px;
 }
 
+table{ 
+    border-collapse: collapse; 
+    height: 26px;
+}
+
+mark{
+    background-color: #cae240;
+}
+
+th, td{
+    width: 1000px;
+    text-align: left;
+}
+
+th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 108, 187);
+}
+
+td{
+    background-color: rgb(110, 162, 211);
+}
+/*inizio Class*/
+.table-white{
+    background-color: rgb(255, 255, 255);
+}
+
 .sub-title{
     margin-bottom: -20px;
 }
 
+.img{
+    display: inline-block;
+    width: 100%;
+}
+/*inizio ID*/
 #logo{
     margin-top: 70px;
     margin-left: 15px;
@@ -28,11 +64,26 @@ header{
     color: gray;
 }
 
-.img{
-    display: inline-block;
-    width: 100%;
-}
-
 #pic-description{
     margin-bottom: -15px;
+}
+
+#list{
+    padding: 25px 0px 25px 0px;
+}
+
+
+#title-footer{
+    margin-top: 50px;
+}
+
+#footer {
+    position: relative;
+}
+
+#text {
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
