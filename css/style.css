@@ -45,6 +45,11 @@ td{
     display: inline-block;
     width: 100%;
 }
+
+.grey-text{
+    color: grey;
+}
+
 /*inizio ID*/
 #logo{
     margin-top: 70px;
@@ -58,10 +63,6 @@ td{
     text-align: justify;
     padding-right: 220px;
     margin-bottom: -60px;
-}
-
-#date, .sub-title{
-    color: gray;
 }
 
 #pic-description{
